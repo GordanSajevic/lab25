@@ -2,6 +2,7 @@ package lab25;
 
 public class Pakovanje {
 	
+	// Kod prepisan sa table
 	
 	private double height;
 	private double width;
