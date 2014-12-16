@@ -6,4 +6,10 @@ public class DHLPaket extends Pakovanje {
 	{
 		return ((getWidth()*getHeight()*getLength())/5000);
 	}
+	
+	@Override
+	public double getWeight()
+	{
+		return Math.max(weight, getDimensionalWeight());
+	}
 }
