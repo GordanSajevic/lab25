@@ -2,12 +2,12 @@ package lab25;
 
 public class Pakovanje {
 	
+	
 	private double height;
 	private double width;
 	private double length;
-	private double weight;
+	public double weight;
 	private double price;
-	
 	
 	public double getHeight()
 	{
@@ -86,6 +86,5 @@ public class Pakovanje {
 	{
 		return "Paket (" + getWidth() + " x " + getHeight() + " x " + getLength() + "), težina: " + getWidth() + ", cijena: " + getPrice(); 
 	}
-	
 	
 }
