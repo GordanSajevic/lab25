@@ -3,6 +3,7 @@ package lab25;
 public class Test {
 
 	public static void main(String[] args) {
+		public static void main(String[] args) {
 		System.out.println("Enter weight: ");
 		double weight = TextIO.getDouble();
 		System.out.println("Enter width: ");
@@ -16,8 +17,10 @@ public class Test {
 		pack.setHeight(height);
 		pack.setWidth(width);
 		pack.setLength(length);
-		System.out.println("Price is: " + pack.getPrice());
 		System.out.println("Dimensional weight is: " + pack.getDimensionalWeight());
+		System.out.println("Weight is: " + pack.getWeight());
+		System.out.println("Price is: " + pack.getPrice());
+	
 	}
 
 }
